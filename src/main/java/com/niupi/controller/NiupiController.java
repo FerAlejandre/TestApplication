@@ -22,7 +22,7 @@ public class NiupiController {
     @ResponseStatus(HttpStatus.OK)
     public String postOperation() {
         log.info("Calling Post Operation");
-        return "This is a post";
+        return "This is a post 123456";
     }
 
 
